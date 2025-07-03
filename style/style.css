@@ -1,4 +1,73 @@
-div{
-    background-color: brown;
-    padding: 10px;
+*{
+    margin: 0;
+    padding: 0;
+}
+.padding{
+    padding-top: 20px;
+    background-color: rgba(103, 194, 60, 0.521);
+}
+
+.banner{
+    padding-top: 20px;
+    width: 1200px;
+    height: 500px;
+    background-image: url('pre-prepared-food-showcasing-ready-eat-delicious-meals-go.jpg');
+    background-repeat: no-repeat;
+    margin: auto;
+    background-size: cover;
+    opacity: 95%;
+   text-align: center;
+}
+.food{
+    padding-top: 110px;
+    text-align: center;
+    color: azure;
+    font-weight: bolder;
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.description{
+    color: white;
+    font-size: 24px;    
+    text-align: center;
+    padding-top: 130px;   
+    font-family: Georgia, Times, 'Times New Roman', serif;   
+}
+.background{
+    background-color: rgb(247, 247, 247);
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 30px 0px;
+    width: 1200px;
+    margin: auto;
+
+}
+.border{
+    border: 10px solid orangered;
+    border-radius: 20px;
+}
+.image{
+    display: flex;
+    gap: 20px;}
+
+.items{
+    margin-left: 20px;
+    padding: 5px;
+}
+li{
+    font-size: 20px;
+    padding: 5px;
+
+}
+.btn{
+   padding: 10px;
+   font-size: 20px;
+   background-color: floralwhite;
+   border-radius: 10px;
+   
+   color: crimson;
+   font-weight: bold;  
+   margin-top: 20px;
+   border: 5px solid rgb(248, 43, 43);
 }
