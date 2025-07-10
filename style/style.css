@@ -25,7 +25,7 @@
     font-weight: bolder;
     font-size: 70px;
     font-family: Arial, Helvetica, sans-serif;
-   te
+   
    
 }
 .description{
@@ -41,7 +41,7 @@
     align-items: center;
     gap: 20px;
     padding: 30px 0px;
-    width: 1200px;
+    max-width: 1200px;
     margin: auto;
 
 }
@@ -67,9 +67,30 @@ li{
    font-size: 20px;
    background-color: floralwhite;
    border-radius: 10px;
+   cursor: pointer;
+
    
    color: crimson;
    font-weight: bold;  
    margin-top: 20px;
    border: 5px solid rgb(248, 43, 43);
+}
+.btn:hover{
+    background-color:   rgb(52, 201, 144) ;
+}
+/* video content section  */
+.video-content{
+    margin: 0 auto;
+    text-align: center;    
+    background-color: orangered;
+    max-width: 1200px;
+}
+.food-title{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px;
+}
+.video-section{
+    padding: 40px;
 }
