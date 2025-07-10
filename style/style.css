@@ -1,9 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Twinkle+Star&display=swap');
+
+.open-sans-font {
+  font-family: "Twinkle-Star", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
 *{
     margin: 0;
     padding: 0;
 }
-.padding{
-    padding-top: 20px;
+.padding{    
     background-color: rgba(103, 194, 60, 0.521);
 }
 
@@ -30,7 +40,7 @@
 }
 .description{
     color: white;
-    font-size: 24px;    
+    font-size: 20px;    
     text-align: center;
     padding-top: 130px;   
     font-family: Georgia, Times, 'Times New Roman', serif;   
@@ -65,15 +75,13 @@ li{
 .btn{
    padding: 10px;
    font-size: 20px;
-   background-color: floralwhite;
-   border-radius: 10px;
-   cursor: pointer;
-
-   
-   color: crimson;
+   background-color: white;
+   border-radius: 5px;
+   cursor: pointer;   
+   color: orangered;
    font-weight: bold;  
    margin-top: 20px;
-   border: 5px solid rgb(248, 43, 43);
+   border: 2px solid orangered;
 }
 .btn:hover{
     background-color:   rgb(52, 201, 144) ;
@@ -93,4 +101,53 @@ li{
 }
 .video-section{
     padding: 40px;
+}
+/* navbar */
+.nav-bar{
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: orangered;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+   
+}
+.logo-title{
+    font-size: 36px;
+    font-style: italic;
+    font-family: 'Twinkle-Star';
+    color: rgb(250, 248, 248);  
+    font-weight: bolder;  
+}
+.logo{
+    display: flex;
+    align-items: center;      
+    border-radius: 15px;
+    font-weight: bolder;
+    margin-left: 30px;
+    
+}
+.list{
+    display: flex;
+    gap: 10px;
+   
+}
+.menu{
+    margin-right: 30px;
+}
+nav li a{
+    text-decoration: none;
+    color: white;
+    
+    
+    
+}
+nav li{
+    list-style: none;
+     font-size: 18px;
+   
+}
+.a-lists:hover{
+    color: rgb(88, 241, 27);
 }
